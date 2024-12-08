@@ -12,6 +12,13 @@ A Java Spring Project using Spring Boot DevTools / Spring Web / Thymeleaf / Spri
 
 2. Open the project with IntelliJ IDEA
 
+3. Configure your API key and AI model in application.properties:
+   - Open the src/main/resources/application.properties file.
+   - Set your perplexity.api.key to your API key :
+     perplexity.api.key=your-api-key
+   - Set your ai.model to the desired AI model :
+     ai.model=your-ai-model
+
 ## Meta
 - **Author**: Horyun Lee
 - Distributed under the MIT License. See the [LICENSE](LICENSE) file for more information.
