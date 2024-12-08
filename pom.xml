@@ -8,8 +8,8 @@
 		<version>3.4.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>it.davidenastri</groupId>
-	<artifactId>chat</artifactId>
+	<groupId>horyun</groupId>
+	<artifactId>gift</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<name>review</name>
 	<description>A Java Spring Boot chat, using Thymeleaf and MyBatis</description>
