@@ -12,9 +12,11 @@ public class PerplexityService {
     private final String API_URL = "https://api.perplexity.ai/chat/completions";
     private final RestTemplate restTemplate;
 
-    public PerplexityService(RestTemplate restTemplate, String apiKey) {
+    public PerplexityService(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
 
-
+    public String generateResponse(String userMessage) {
+            return "null";
+    }
 }
