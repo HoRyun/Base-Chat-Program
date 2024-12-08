@@ -8,9 +8,10 @@ A Java Spring Project using Spring Boot DevTools / Spring Web / Thymeleaf / Spri
 ## How to use
 1. Clone this repo locally
    ```bash
-   git clone https://github.com/HoRyun/Gift_Recommendation.git
+   git clone https://github.com/Horyun/Gift_Recommendation.git
 
 2. Open the project with IntelliJ IDEA
 
 3. Author: Horyun Lee
 Distributed under the MIT License. See the LICENSE file for more information.
+
