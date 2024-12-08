@@ -12,6 +12,7 @@ A Java Spring Project using Spring Boot DevTools / Spring Web / Thymeleaf / Spri
 
 2. Open the project with IntelliJ IDEA
 
-3. Author: Horyun Lee
-Distributed under the MIT License. See the LICENSE file for more information.
+## Meta
+- **Author**: Horyun Lee
+- Distributed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
