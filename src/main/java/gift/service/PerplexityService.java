@@ -18,6 +18,9 @@ public class PerplexityService {
     @Value("${perplexity.api.key}")
     private String apiKey;
 
+    @Value("${ai.model}")
+    private String model;
+
     private final String API_URL = "https://api.perplexity.ai/chat/completions";
     private final RestTemplate restTemplate;
 
@@ -33,6 +36,7 @@ public class PerplexityService {
 
         // 요청 메시지 설정 - 프롬프트 수정
         PerplexityRequest request = new PerplexityRequest();
+        request.setModel(model);  // Service에서 주입받은 model 값 설정
         List<PerplexityRequest.Message> messages = new ArrayList<>();
 
         // 시스템 메시지에 URL 형식에 대한 지침 추가

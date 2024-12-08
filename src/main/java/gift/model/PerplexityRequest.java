@@ -1,11 +1,14 @@
 package gift.model;
 
 import lombok.Data;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
 @Data
 public class PerplexityRequest {
-    private String model = "your-ai-model";
+    private String model;
     private List<Message> messages;
     private int maxTokens = 1024;
     private double temperature = 0.2;

@@ -31,7 +31,7 @@ public class SecurityConfig {
                 )
                 .authorizeHttpRequests(authorize -> authorize
                         // allow access to static resources
-                        .requestMatchers("/css/**", "/js/**").permitAll()
+                        .requestMatchers("/css/**", "/js/**", "/error").permitAll()
                         // allow access to signup and logout paths
                         .requestMatchers("/signup", "/logout").permitAll()
                         // require authentication for any other request
